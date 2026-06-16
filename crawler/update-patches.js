@@ -284,6 +284,7 @@ function isStopSection(line) {
     "Weapons",
     "Armor",
     "Cobalt Protocol",
+    "코발트 프로토콜",
     "Bug Fixes and Improvements",
     "Gameplay Improvements",
     "Lobby Improvements",
@@ -338,9 +339,6 @@ function isStopSection(line) {
 function extractCharacterChanges(lines) {
   const result = {};
 
-  /**
-   * 결과 객체를 미리 만들어둡니다.
-   */
   for (const character of CHARACTERS) {
     result[character.slug] = {
       name: character.name,
@@ -352,9 +350,13 @@ function extractCharacterChanges(lines) {
   let currentCharacter = null;
 
   for (const line of lines) {
-    /**
-     * 현재 줄이 실험체 이름인지 확인합니다.
-     */
+    if (
+      line.includes("코발트 프로토콜") ||
+      line.includes("Cobalt Protocol")
+    ) {
+      break;
+    }
+
     const foundCharacter = findTargetCharacterByLine(line);
 
     if (foundCharacter) {
@@ -362,26 +364,16 @@ function extractCharacterChanges(lines) {
       continue;
     }
 
-    /**
-     * 현재 실험체 변경사항을 수집 중인데,
-     * 다른 실험체 이름을 만나면 현재 섹션을 종료합니다.
-     */
     if (currentCharacter && isAnyCharacterNameLine(line)) {
       currentCharacter = null;
       continue;
     }
 
-    /**
-     * 무기, 아이템, 버그 수정 같은 다른 섹션이 나오면 종료합니다.
-     */
     if (currentCharacter && isStopSection(line)) {
       currentCharacter = null;
       continue;
     }
 
-    /**
-     * 아직 실험체 섹션을 만나지 않았다면 저장하지 않습니다.
-     */
     if (!currentCharacter) {
       continue;
     }
@@ -393,15 +385,9 @@ function extractCharacterChanges(lines) {
     result[currentCharacter.slug].changes.push(line);
   }
 
-  /**
-   * 변경사항이 하나도 없는 실험체는 제거합니다.
-   */
   const filtered = {};
 
   for (const slug of Object.keys(result)) {
-    /**
-     * 중복 제거
-     */
     const changes = [...new Set(result[slug].changes)];
 
     if (changes.length > 0) {
@@ -414,6 +400,7 @@ function extractCharacterChanges(lines) {
 
   return filtered;
 }
+  
 
 /**
  * 기존 patches.json 파일을 읽습니다.
@@ -460,28 +447,33 @@ function upsertPatch(patches, newPatch) {
 
   return [newPatch, ...patches];
 }
+function withKoreanLocale(url) {
+  const parsedUrl = new URL(url);
+
+  parsedUrl.searchParams.set("hl", "ko-KR");
+
+  return parsedUrl.toString();
+}
+
 
 /**
  * 메인 실행 함수입니다.
  */
 async function main() {
-  const url = process.argv[2];
+  const inputUrl = process.argv[2];
 
-  if (!url) {
+  if (!inputUrl) {
     console.error("패치노트 URL을 입력해주세요.");
-    console.error(
-      "예: npm run update-patches -- https://playeternalreturn.com/posts/news/3629"
-    );
     process.exit(1);
   }
 
-  console.log("패치노트 크롤링 시작:", url);
+  const url = withKoreanLocale(inputUrl);
+
+  console.log("크롤링 URL:", url);
 
   const response = await axios.get(url, {
     headers: {
-      /**
-       * 일부 사이트는 User-Agent가 없으면 정상 HTML을 안 줄 수 있습니다.
-       */
+      "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
       "User-Agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
     },
