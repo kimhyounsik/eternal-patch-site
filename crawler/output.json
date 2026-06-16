@@ -1,0 +1,9 @@
+{
+  "character": "유키",
+  "version": "11.4",
+  "date": "2026-06-11",
+  "type": "buff",
+  "changes": [
+    "YukiWe are slightly increasing Yuki's defense per level to help out with his durability. Additionally, we are increasing the attack speed slow duration on E - Dashing Gentleman to make the skill feel more impactful when it hits. Defense per level 3.1 → 3.2Dashing Gentleman(E)Attack Speed Reduction Duration 1s → 1.5s"
+  ]
+}

@@ -1,0 +1,436 @@
+[
+  {
+    "id": "3629",
+    "title": "PATCH NOTES 11.4 - JUNE 11TH, 2026 :: Eternal Return",
+    "url": "https://playeternalreturn.com/posts/news/3629",
+    "date": "JUNE 11TH, 2026",
+    "type": "patch",
+    "characters": {
+      "nicky": {
+        "name": "니키",
+        "aliases": [
+          "니키",
+          "Nicky"
+        ],
+        "changes": [
+          "We are increasing the overall power of Nicky's skills to address her consistently low performance. This includes buffing the damage of Q - Slugfest and the slow percentage of E - Knockout Punch.",
+          "Slugfest Q",
+          "Min Damage 30/50/70/90/110 +Skill Amplification 70% → 40/60/80/100/120 +Skill Amplification 70%",
+          "Max Damage 60/100/140/180/220 +Skill Amplification 140% → 80/120/160/200/240 +Skill Amplification 140%",
+          "Knockout Punch E",
+          "Slow 35% → 40%",
+          "Fury Jab!!",
+          "Slowed 35% → 40%"
+        ]
+      },
+      "daniel": {
+        "name": "다니엘",
+        "aliases": [
+          "다니엘",
+          "Daniel"
+        ],
+        "changes": [
+          "Daniel has been underperforming, especially since his win rate dropped significantly after the final Chronosphere phase shifted to daytime. To help him perform better even during unfavorable times of day, we are boosting the utility of Q - Dusk Shears.",
+          "Dusk Shears Q",
+          "Center Hit Damage 40/60/80/100/120 +Attack Power130% → 40/60/80/100/120 +Attack Power140%",
+          "Center Hit Slowed 30% → 35%"
+        ]
+      },
+      "lenox": {
+        "name": "레녹스",
+        "aliases": [
+          "레녹스",
+          "Lenox"
+        ],
+        "changes": [
+          "When landing only a single hit with R - Blue Viper, the resulting damage from the Blue Viper effect felt incredibly weak, especially at lower levels, failing to meet expectations. We are buffing its early-game damage to compensate. Additionally, since her overall stats have been disappointing lately, we are also increasing the damage dealt with both hits.",
+          "Blue Viper R",
+          "Blue Viper Grounded Damage 5/15/25 → 15/20/25",
+          "2 Hits Blue Viper Grounded Damage 25/35/45 → 30/40/50"
+        ]
+      },
+      "leon": {
+        "name": "레온",
+        "aliases": [
+          "레온",
+          "Leon"
+        ],
+        "changes": [
+          "We are enhancing Leon's combat capabilities by increasing the damage of his main passive skill, P - Human Torpedo.",
+          "Human Torpedo P",
+          "Damage 30/50/70 +Skill Amplification 30% → 30/45/60 +Skill Amplification 35%"
+        ]
+      },
+      "lenore": {
+        "name": "르노어",
+        "aliases": [
+          "르노어",
+          "Lenore"
+        ],
+        "changes": [
+          "We are boosting the power of Lenore's Q - Staccato to help compensate for her consistently low performance metrics.",
+          "Staccato Q",
+          "Damage 70/90/110/130/150 +Skill Amplification 60% → 80/100/120/140/160 +Skill Amplification 60%"
+        ]
+      },
+      "martina": {
+        "name": "마르티나",
+        "aliases": [
+          "마르티나",
+          "Martina"
+        ],
+        "changes": [
+          "Martina has consistently stayed above average in overall performance metrics. We are toning down her Weapon Mastery scaling to keep her power in check.",
+          "Basic Attack Amplification per Camera Mastery level 1.2% → 1.1%"
+        ]
+      },
+      "markus": {
+        "name": "마커스",
+        "aliases": [
+          "마커스",
+          "Markus"
+        ],
+        "changes": [
+          "We are increasing Markus's Base HP to improve his durability.",
+          "Base HP 920 → 950"
+        ]
+      },
+      "magnus": {
+        "name": "매그너스",
+        "aliases": [
+          "매그너스",
+          "Magnus"
+        ],
+        "changes": [
+          "We are buffing the damage of Magnus's main skill, W - 17 vs 1, to strengthen his overall combat capability.",
+          "17 vs 1 W",
+          "Damage 16/22/28/34/40 +Extra Attack Power 45% +Skill Amplification 20% +Target's Max HP 2.5% → 22/28/34/40/46 +Extra Attack Power 45% +Skill Amplification 20% +Target's Max HP 2.5%",
+          "Mirka",
+          "We are increasing the damage of E - Backstep Rush's Enhanced Power Strike, as it has seen relatively low utility.",
+          "Backstep Rush E",
+          "Power Strike E2",
+          "Enhanced Impulse Gauge Additional Damage 33% → 40%"
+        ]
+      },
+      "vanya": {
+        "name": "바냐",
+        "aliases": [
+          "바냐",
+          "Vanya"
+        ],
+        "changes": [
+          "Vanya continues to underperform in high-tier lobbies. We are increasing the outer area damage of E - Yearning to make it more rewarding when successfully landing the skill.",
+          "Yearning E",
+          "Outer Area Damage 90/125/160/195/230 +Skill Amplification 80% → 90/125/160/195/230 +Skill Amplification 90%"
+        ]
+      },
+      "bianca": {
+        "name": "비앙카",
+        "aliases": [
+          "비앙카",
+          "Bianca"
+        ],
+        "changes": [
+          "Bianca is performing above average across all skill brackets. We are slightly reducing her power by toning down her Weapon Mastery scaling.",
+          "Skill Amp per Arcana Mastery Level 4.5% → 4.4%"
+        ]
+      },
+      "adela": {
+        "name": "아델라",
+        "aliases": [
+          "아델라",
+          "Adela"
+        ],
+        "changes": [
+          "We are reducing the damage of W - Knight Fork to tone down the overall power potential of Adela's skill combos.",
+          "Knight Fork W",
+          "Damage 20/60/100/140/180 +Skill Amplification 80% → 20/60/100/140/180 +Skill Amplification 75%"
+        ]
+      },
+      "adriana": {
+        "name": "아드리아나",
+        "aliases": [
+          "아드리아나",
+          "Adriana"
+        ],
+        "changes": [
+          "We are increasing Adriana's Weapon Mastery scaling to boost her overall combat power.",
+          "Skill Amp per Throw Mastery Level 3.9% → 4%"
+        ]
+      },
+      "arda": {
+        "name": "아르다",
+        "aliases": [
+          "아르다",
+          "Arda"
+        ],
+        "changes": [
+          "Arda continues to show strong results due to his exceptional zoning and combat utility through R - Unleashed Power's Babylon's Dice. We are reducing the root duration of this skill to bring his power in check.",
+          "Unleashed Power R",
+          "Babylon's Dice R-W",
+          "Rooted Duration 1/1.1/1.2s → 0.9/1/1.1s"
+        ]
+      },
+      "aya": {
+        "name": "아야",
+        "aliases": [
+          "아야",
+          "Aya"
+        ],
+        "changes": [
+          "We are increasing the cooldown reduction E - Moving Turn grants to Q - Double Shot and W - Steady Shot upon activation to reward more aggressive uses of it.",
+          "Moving Turn E",
+          "Double Shot and Steady Shot Cooldown Reduction 30/35/40/45/50% → 40/45/50/55/60%"
+        ]
+      },
+      "isol": {
+        "name": "아이솔",
+        "aliases": [
+          "아이솔",
+          "Isol"
+        ],
+        "changes": [
+          "We are increasing the damage of E - Camouflage to encourage more aggressive play.",
+          "Camouflage E",
+          "Damage 40/65/90/115/140 +Skill Amplification 65% → 60/90/120/150/180 +Skill Amplification 65%"
+        ]
+      },
+      "alex": {
+        "name": "알렉스",
+        "aliases": [
+          "알렉스",
+          "Alex"
+        ],
+        "changes": [
+          "All Weapons",
+          "Damage Taken 90% → 92%"
+        ]
+      },
+      "alonso": {
+        "name": "알론소",
+        "aliases": [
+          "알론소",
+          "Alonso"
+        ],
+        "changes": [
+          "Alonso continues to record high performance metrics across all tiers thanks to his strong damage output and crowd control. We are keeping his overall power in check by reducing the follow-up damage on Q - Energy Punch and reducing the root duration of E - Al Ataque!.",
+          "Energy Punch Q",
+          "Additional Damage Alonso Level * 8 +Target’s Max HP 6/7/8/9/10% → Alonso Level * 6 +Target’s Max HP 6/7/8/9/10%",
+          "Al Ataque! E",
+          "Rooted Duration 0.8/0.9/1/1.1/1.2s → 0.7/0.8/0.9/1/1.1s"
+        ]
+      },
+      "johann": {
+        "name": "요한",
+        "aliases": [
+          "요한",
+          "Johann"
+        ],
+        "changes": [
+          "Johann has been recording exceptionally high point gains, particularly in top-tier matches. We are reducing the movement speed buff on E - Divine Scripture to tune down his high utility.",
+          "Divine Scripture E",
+          "Ally Movement Speed Increase 6/9/12/15/18% +Skill Amplification 1% → 6/8/10/12/14% +Skill Amplification 1%"
+        ]
+      },
+      "yumin": {
+        "name": "유민",
+        "aliases": [
+          "유민",
+          "Yumin"
+        ],
+        "changes": [
+          "Yumin is currently overperforming in all skill brackets. We are keeping his combat power in check by reducing the shield amount on P - The Power of Tao and reducing the damage of E - Cloud Steps.",
+          "The Power of Tao P",
+          "Shield 40/70/100 +Skill Amplification 30% → 40/70/100 +Skill Amplification 25%",
+          "Cloud Steps E",
+          "Damage 60/95/130/165/200 +Skill Amplification 50% → 60/90/120/150/180 +Skill Amplification 50%"
+        ]
+      },
+      "justyna": {
+        "name": "유스티나",
+        "aliases": [
+          "유스티나",
+          "Justyna"
+        ],
+        "changes": [
+          "Justyna has not been recording enough average damage and has been underperforming across all levels. We are increasing the consecutive fire damage on Q - Barrage & Annihilation to help her stack up better sustained damage during extended fights.",
+          "Barrage & Annihilation Q",
+          "Barrage Q1",
+          "Damage 50/75/100/125/150 +Skill Amplification 40% → 50/75/100/125/150 +Skill Amplification 45%"
+        ]
+      },
+      "yuki": {
+        "name": "유키",
+        "aliases": [
+          "유키",
+          "Yuki"
+        ],
+        "changes": [
+          "We are slightly increasing Yuki's defense per level to help out with his durability. Additionally, we are increasing the attack speed slow duration on E - Dashing Gentleman to make the skill feel more impactful when it hits.",
+          "Defense per level 3.1 → 3.2",
+          "Dashing Gentleman E",
+          "Attack Speed Reduction Duration 1s → 1.5s"
+        ]
+      },
+      "jackie": {
+        "name": "재키",
+        "aliases": [
+          "재키",
+          "Jackie"
+        ],
+        "changes": [
+          "Jackie is underperforming across all of her available weapon types. We are increasing the damage based on her target’s current health on Q - Hack & Slash to help her out.",
+          "Hack & Slash Q",
+          "Damage 30/50/70/90/110 +Attack Power 55% +Target’s Current HP 5% → 30/50/70/90/110 +Attack Power 55% +Target’s Current HP 7%"
+        ]
+      },
+      "jenny": {
+        "name": "제니",
+        "aliases": [
+          "제니",
+          "Jenny"
+        ],
+        "changes": [
+          "We are increasing the Red Wine effect on Q - Spotlight to make casting the ability on herself a more viable and attractive option, since its utility has been lagging.",
+          "Spotlight Q",
+          "Red Wine",
+          "Attack Speed Increase 3% → 6%"
+        ]
+      },
+      "camilo": {
+        "name": "카밀로",
+        "aliases": [
+          "카밀로",
+          "Camilo"
+        ],
+        "changes": [
+          "We are increasing the shield value on P - Olé! to help out Camilo's durability. For Rapier Camilo, who has been consistently recording high performance stats, we are scaling back his Weapon Mastery effect to keep his power in check.",
+          "Basic Attack Amplification per Rapier Mastery level 1.4% → 1.3%",
+          "Olé! P",
+          "Shield 50/100/150 +Attack Power80% → 50/100/150 +Attack Power90%"
+        ]
+      },
+      "cathy": {
+        "name": "캐시",
+        "aliases": [
+          "캐시",
+          "Cathy"
+        ],
+        "changes": [
+          "We are increasing the extra basic attack skill amplification damage on Q - Double Bypass to enhance Cathy's overall damage threat.",
+          "Double Bypass Q",
+          "Extra Basic Attack Damage Skill Amplification 50% → 55%"
+        ]
+      },
+      "coraline": {
+        "name": "코렐라인",
+        "aliases": [
+          "코렐라인",
+          "Coraline"
+        ],
+        "changes": [
+          "Coraline continues to maintain a high pick rate and solid performance in top-tier lobbies. While we adjusted the projectile speed of Q - Flash of Condemnation in the last patch, her skills remain difficult to dodge. For this patch, we are increasing the projectile delay on W - Mirror of Truth / Mirror of Falsehood to give opponents more room to react and outplay.",
+          "Mirror of Truth / Mirror of Falsehood W",
+          "Mirror Projectile Delay Duration 0.4s → 0.5s"
+        ]
+      },
+      "chiara": {
+        "name": "키아라",
+        "aliases": [
+          "키아라",
+          "Chiara"
+        ],
+        "changes": [
+          "We are increasing the HP recovery on R - Plague to help Chiara stay powerful during extended team fights.",
+          "Plague R",
+          "HP Recovery 12/17/22 +Skill Amplification 4% → 20/25/30 +Skill Amplification 5%"
+        ]
+      },
+      "fenrir": {
+        "name": "펜리르",
+        "aliases": [
+          "펜리르",
+          "Fenrir"
+        ],
+        "changes": [
+          "We are increasing Fenrir’s HP recovery with P - Last Ditch while in his VF Absorption state to improve his overall sustain during combat.",
+          "Last Ditch P",
+          "VF Absorption HP Recovery 7/11/15 +Extra Attack Power 12% → 10/15/20 +Extra Attack Power 12%"
+        ]
+      },
+      "felix": {
+        "name": "펠릭스",
+        "aliases": [
+          "펠릭스",
+          "Felix"
+        ],
+        "changes": [
+          "We are patching up Felix's low durability by increasing his base defense, and reducing the maximum charging time for R - Tempest Hydra to make it easier to utilize effectively.",
+          "Base Defense 50 → 53",
+          "Tempest Hydra R",
+          "Max Charging Time 1.25s → 1s"
+        ]
+      },
+      "priya": {
+        "name": "프리야",
+        "aliases": [
+          "프리야",
+          "Priya"
+        ],
+        "changes": [
+          "We are increasing the damage of W - Portamento so that using the skill aggressively yields more meaningful results.",
+          "Portamento W",
+          "Damage 60/100/140/180/220 +Skill Amplification 65% → 60/100/140/180/220 +Skill Amplification 70%"
+        ]
+      },
+      "fiora": {
+        "name": "피오라",
+        "aliases": [
+          "피오라",
+          "Fiora"
+        ],
+        "changes": [
+          "Fiora is currently enjoying a high pick rate and above-average metrics in high-tier matches. We are slightly reducing her base defense to tune down her durability.",
+          "Base Defense 56 → 54"
+        ]
+      },
+      "hart": {
+        "name": "하트",
+        "aliases": [
+          "하트",
+          "Hart"
+        ],
+        "changes": [
+          "We are reducing the cooldown of E - Flanger to improve Hart's overall mobility and positioning.",
+          "Flanger E",
+          "Cooldown 15/14.5/14/13.5/13s → 14/13.5/13/12.5/12s"
+        ]
+      },
+      "henry": {
+        "name": "헨리",
+        "aliases": [
+          "헨리",
+          "Henry"
+        ],
+        "changes": [
+          "Henry has consistently been recording high performance metrics. We are reducing the damage of W - Chronograph to tone down his overall offensive threat.",
+          "Chronograph W",
+          "Damage 8/16/24/32/40 +Skill Amplification 22% +Target's Max HP 1/1/2/2/3% → 8/16/24/32/40 +Skill Amplification 20% +Target's Max HP 1/1/2/2/3%"
+        ]
+      },
+      "hyunwoo": {
+        "name": "현우",
+        "aliases": [
+          "현우",
+          "Hyunwoo"
+        ],
+        "changes": [
+          "Hyunwoo is currently underperforming. We are increasing the damage of E - First Attack to ensure the skill still deals damage even when he doesn't manage to slam the enemy into a wall.",
+          "First Attack E",
+          "Damage +Extra Attack Power 70% +Skill Amplification 55% +Target's Current Max HP 5/8/11/14/17% → +Extra Attack Power 80% +Skill Amplification 55% +Target's Current Max HP 6/9/12/15/18%"
+        ]
+      }
+    },
+    "createdAt": "2026-06-15T13:26:58.485Z"
+  }
+]
